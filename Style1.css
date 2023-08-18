@@ -1,0 +1,79 @@
+﻿:root {
+    --main-color: rgb(249, 127, 0);
+    --black: #222;
+    --white: #fff;
+    --light-black: #777;
+    --light-white: #fff9;
+    --dark-bg: rgba(0, 0, 0, .7);
+    --light-bg: #eee;
+    --border: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+
+ body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriwearther', sans-serif;
+    background-color: midnightblue;
+}
+h1 {
+    background-color: dodgerblue;
+    font-family: Broadway;
+    font-weight: bold;
+    border: unset;
+    color: whitesmoke;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 35px;
+    margin: 20px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h2 {
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 15px auto 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+    top: auto;
+    text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+h3 {
+    text-align:justify-all;
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 15px auto 0 auto;
+    font-family: 'Calisto MT';
+    top: auto;
+    text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+h4 {
+    text-align: justify-all;
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 15px auto 0 auto;
+    font-family: 'Calisto MT';
+    top: auto;
+    text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+ul {
+    background-color: aliceblue;
+    font-weight: bold;
+    font-family: 'Baskerville Old Face';
+    border: unset;
+    color: darkblue;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 30px;
+    margin: 40px 40px;
+    cursor: ns-resize;
+    border-radius: 10px;
+}
+
